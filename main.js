@@ -35,6 +35,7 @@ function submitIssue(e) {
   document.getElementById('issueInputForm').reset(); // reset() will reset the value in form..same as reset btn
   fetchIssues();
   updateIssueCount();
+  e.preventDefault();
 }
 
 const closeIssue = id => {
