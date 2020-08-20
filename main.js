@@ -2,6 +2,7 @@
 document.getElementById('issueInputForm').addEventListener('submit', submitIssue); 
 
 
+
 const updateIssueCount = () => {
   const issues = JSON.parse(localStorage.getItem('issues'));
   const totalIssueCount = issues.length;
